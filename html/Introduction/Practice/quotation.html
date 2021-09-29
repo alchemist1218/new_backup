@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+        <style>
+            .c {
+                box-sizing: border-box;
+                float: left;
+                width: 50%;
+                padding: 10px;
+                height: 300px;
+                /* Should be removed. Only for demonstration */
+            }
+        
+            #container:after {
+                content: "";
+                display: table;
+                clear: both;
+            }
+        
+            .c1 {
+                display: block;
+                height: 50%;
+            }
+            .q{
+                margin: 10px 30px;
+                padding: 25px;
+                border: 1px solid;
+                border-radius: 10px;
+                background-color: white;
+            }
+        </style>
+</head>
+<body>
+    <div id="container">
+        <span class="c" style="background-color: tomato;">
+            <span class="c1" style="background-color: violet;"> a</span>
+            <span class="c1" style="background-color: turquoise;"><blockquote class="q">
+               Fylo has improved our team productivity by <br>an order of magnitude. Since making the<br>switch our team has become a well-oiled <br>collaboration machine.
+            </blockquote></span>
+        </span>
+        <span class="c" style="background-color: teal;">2</span>
+    
+    </div>
+    
+</body>
+</html>
